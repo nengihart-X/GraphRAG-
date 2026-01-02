@@ -92,8 +92,8 @@ result = await workflow.run("What are the benefits of LangGraph?")
 
 1. **Clone and setup**
 ```bash
-git clone <repository-url>
-cd agentic-rag-platform
+git clone https://github.com/nengihart-X/GraphRAG-.git
+cd GraphRAG-/GraphRAG
 pip install -r requirements.txt
 ```
 
@@ -291,19 +291,6 @@ export API_PORT=8000
 - **Cache Layer**: Redis Cluster for distributed caching
 - **Monitoring**: Prometheus + Grafana for observability
 
-## 🧠 Resume-Ready Description
-
-**Agentic RAG Platform using LangGraph**
-
-Designed and implemented a production-grade Retrieval-Augmented Generation system using LangGraph to orchestrate multi-step AI workflows with stateful control, conditional branching, and validation loops. Built a scalable FastAPI backend integrating vector databases and LLM APIs, enabling intelligent document retrieval, query rewriting, re-ranking, grounded answer generation, and hallucination detection. Optimized retrieval accuracy, latency, and robustness through adaptive chunking, hybrid search, and agent-based validation.
-
-**Key Technical Achievements:**
-- **LangGraph Implementation**: Built complex workflow graphs with 5 specialized nodes (Query Analyzer, Retriever, Re-Ranker, Answer Generator, Validator)
-- **Production Architecture**: Designed async FastAPI backend with Redis caching, Prometheus monitoring, and streaming responses
-- **Advanced NLP**: Implemented semantic chunking, query expansion, cross-encoder re-ranking, and hallucination detection
-- **Performance Optimization**: Achieved sub-second query times through intelligent caching and parallel processing
-- **Quality Assurance**: Built comprehensive validation system with confidence scoring and citation management
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -331,3 +318,4 @@ For questions and support:
 - 📧 Email: nengihaart2006@gmail.com
 
 Built with ❤️ using LangGraph
+
