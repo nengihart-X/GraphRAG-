@@ -315,7 +315,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For questions and support:
-- 📧 Email: nengihaart2006@gmail.com
+- 📧 Email: nengihart2006@gmail.com
 
 Built with ❤️ using LangGraph
+
 
